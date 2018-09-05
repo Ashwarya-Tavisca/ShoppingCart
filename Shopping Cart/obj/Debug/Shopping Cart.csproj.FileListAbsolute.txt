@@ -1,0 +1,2 @@
+C:\Users\ajoshi\Desktop\ShoppingCart\Shopping Cart\obj\Debug\Shopping Cart.csprojResolveAssemblyReference.cache
+C:\Users\ajoshi\Desktop\ShoppingCart\Shopping Cart\obj\Debug\Shopping Cart.csproj.CoreCompileInputs.cache

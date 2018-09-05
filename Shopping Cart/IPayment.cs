@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shopping_Cart
+namespace ShoppingCart
 {
     interface IPayment
     {
-        void Payment(string PaymentMode);
+       void pay(double cash);
     }
 }

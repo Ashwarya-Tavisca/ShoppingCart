@@ -4,17 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shopping_Cart
+namespace ShoppingCart
 {
-    class CardPayment:IPayment ,ICardPayment
+    public class CardPayment : IPayment
     {
-        public void SaveDetails()
+        public void pay(double cash)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Enter cardno:");
+            int cardno = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Enter cvv:");
+            int cv = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Expiry Date:");
+            int expirydate = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Card Name:");
+            string cardname = Console.ReadLine();
+            Console.WriteLine("The amount: " + cash + "has been successfully deducted from the account");
         }
-        public void SaveCardDetails()
-        {
-            throw new NotImplementedException();
-        }
+
+
     }
 }

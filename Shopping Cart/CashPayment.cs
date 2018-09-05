@@ -4,9 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shopping_Cart
+namespace ShoppingCart
 {
+    
     class CashPayment
     {
+        class Cash : IPayment
+        {
+            public void pay(double cash)
+            {
+                Console.WriteLine("Payable Amount:" + cash);
+            }
+        }
     }
 }
