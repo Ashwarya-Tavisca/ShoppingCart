@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardPayment.cs" />
     <Compile Include="Cart.cs" />
+    <Compile Include="CashPayment.cs" />
+    <Compile Include="ICardPayment.cs" />
     <Compile Include="IShoppingCart.cs" />
     <Compile Include="IPayment.cs" />
     <Compile Include="Items.cs" />
